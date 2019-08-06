@@ -1,4 +1,4 @@
-div.loginPageDiv{
+div.divSection{
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -30,4 +30,8 @@ input.buttonClass{
 }
 input.buttonClass:hover{
     background-color: #45a049;
+}
+
+table.resultTable{
+    padding: 2px;
 }
