@@ -2,17 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script type="text/javascript" src="Login.js"></script>
+    <link REL="stylesheet" href="Login.css" type="text/css">
     <title>SpringApplication</title>
 </head>
-<body>
-<div>
-<form action="LoginController">
-    <h4>Username</h4>
-    <input type="text" placeholder="Enter Username">
+<body class="pageBackground">
+
+<div class="loginPageDiv">
+<h3>Enter your details</h3>
+<form class="formClass" name="loginForm" onsubmit="return verifyDetails()" formaction="LoginController" method="POST">
+    <h4 >Username</h4>
+    <input class="inputField" id="loginUsername" type="text" placeholder="Enter Username" required="required">
     <h4>Password</h4>
-    <input type="password" placeholder="Enter Password"><br>
+    <input class ="inputField" id="loginPassword" type="password" placeholder="Enter Password" required="required"><br>
     <br>
-    <input type="submit" value="SUBMIT">
+    <input type="submit" value="SUBMIT" class="buttonClass">
 </form>
 </div>
 </body>
