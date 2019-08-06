@@ -1,2 +1,0 @@
-# SpringProject
-Practicing Spring Project
